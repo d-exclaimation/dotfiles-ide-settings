@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Atom Material Icon",
+        "importance": 3
+    },
+    {
+        "name": "Code Glance",
+        "importance": 2
+    },
+    {
+        "name": "Discord Integration",
+        "importance": 3
+    },
+    {
+        "name": "IdeaVim",
+        "importance": 5
+    },
+    {
+        "name": "Rider UI Theme Pack",
+        "importance": 2
+    },
+    {
+        "name": "Rust",
+        "importance": 3
+    },
+    {
+        "name": "Swift",
+        "importance": 3
+    },
+    {
+        "name": "Randomness",
+        "importance": 1
+    }
+]
