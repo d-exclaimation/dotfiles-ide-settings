@@ -30,5 +30,9 @@
     {
         "name": "Randomness",
         "importance": 1
+    },
+    {
+        "name": "JS GraphQL",
+        "importance": 4
     }
 ]

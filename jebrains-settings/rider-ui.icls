@@ -1,9 +1,9 @@
 <scheme name="Rider Dark" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2021-02-22T14:47:23</property>
+    <property name="created">2021-02-24T06:38:50</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2021-02-22T14:48:31</property>
+    <property name="modified">2021-02-24T06:39:07</property>
     <property name="originalScheme">_@user_Rider Dark</property>
   </metaInfo>
   <colors>
@@ -833,6 +833,17 @@
         <option name="EFFECT_COLOR" value="d9b72b" />
         <option name="ERROR_STRIPE_COLOR" value="d9b72b" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GRAPHQL_FIELD_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="b5b6e3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GRAPHQL_TYPE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b5b6e3" />
       </value>
     </option>
     <option name="GRID_ERROR_VALUE">

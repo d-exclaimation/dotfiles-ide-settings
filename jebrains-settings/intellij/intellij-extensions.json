@@ -20,23 +20,15 @@
         "importance": 2
     },
     {
-        "name": "Rust",
-        "importance": 3
+        "name": "Kotlin",
+        "importance": 5
     },
     {
-        "name": "Deno",
+        "name": "Ktor",
         "importance": 3
     },
     {
         "name": "Randomness",
-        "importance": 1
-    },
-    {
-        "name": ".env extensions",
-        "importance": 1
-    },
-    {
-        "name": "Kubernetes",
         "importance": 1
     },
     {
