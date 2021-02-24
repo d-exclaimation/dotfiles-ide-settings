@@ -4,6 +4,7 @@
 > 1. Clion
 > 2. GoLand
 > 3. WebStorm
+> 4. IntelliJ
 
 ## IDE Settings
 > 1. compressed files that can be imported
