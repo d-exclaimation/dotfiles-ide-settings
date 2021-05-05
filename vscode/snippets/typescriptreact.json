@@ -1,0 +1,69 @@
+{
+	"Functional Component Proped": {
+		"prefix": "fsf",
+		"body": [
+			"//",
+			"//  $TM_FILENAME",
+			"//  $WORKSPACE_NAME",
+			"//",
+			"//  Created by d-exclaimation on ${CURRENT_HOUR}:${CURRENT_MINUTE}.",
+			"//  Copyright © $CURRENT_YEAR d-exclaimation. All rights reserved.",
+			"//",
+			"",
+			"import React from 'react';",
+			"",
+			"type Props = {",
+			"    $2",
+			"}",
+			"",
+			"const $TM_FILENAME_BASE: React.FC<Props> = ({}: Props) => {",
+			"    return (",
+			"        <>Hello from ${1:TM_FILENAME_BASE}</>",
+			"    );",
+			"};",
+			"",
+			"export default $TM_FILENAME_BASE;"
+		],
+		"description": "Functional component with props"
+	},
+	"Functional Component": {
+		"prefix": "fsc",
+		"body": [
+			"//",
+			"//  $TM_FILENAME",
+			"//  $WORKSPACE_NAME",
+			"//",
+			"//  Created by d-exclaimation on ${CURRENT_HOUR}:${CURRENT_MINUTE}.",
+			"//  Copyright © $CURRENT_YEAR d-exclaimation. All rights reserved.",
+			"//",
+			"",
+			"import React from 'react';",
+			"",
+			"const $TM_FILENAME_BASE: React.FC = () => {",
+			"    return (",
+			"        <>Hello from ${TM_FILENAME_BASE}</>",
+			"    );",
+			"};",
+			"",
+			"export default $TM_FILENAME_BASE;"
+		],
+		"description": "Functional component with props"
+	},
+
+	"Define function": {
+		"prefix": "df",
+		"body": [
+			"//",
+			"//  $TM_FILENAME",
+			"//  $WORKSPACE_NAME",
+			"//",
+			"//  Created by d-exclaimation on ${CURRENT_HOUR}:${CURRENT_MINUTE}.",
+			"//  Copyright © $CURRENT_YEAR d-exclaimation. All rights reserved.",
+			"//",
+			"",
+			"export const $TM_FILENAME_BASE = () => {",
+			"    $1",
+			"};"
+		]
+	}
+}

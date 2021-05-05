@@ -1,0 +1,75 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.fontFamily": "Jetbrains Mono, 'Courier New', monospace",
+    "better-comments.tags": [
+
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "mark",
+            "color": "#FCD6CE",
+            "strikethrough": false,
+            "underline": false,
+            "backgroudnColor": "transparent",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "Mark",
+            "color": "#FCD6CE",
+            "strikethrough": false,
+            "underline": false,
+            "backgroudnColor": "transparent",
+            "bold": true,
+            "italic": true
+        }
+    ]
+}

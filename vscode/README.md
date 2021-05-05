@@ -1,8 +1,8 @@
 # VSCode Extensions
 
-Installing extensions with shell
+Installing extensions with shell for lighterweight approach
 
 ```bash
-chmod +x extensions.sh
-./extensions.sh
+chmod +x extensions/<any-settings>.sh
+./extensions/<any-settings>.sh
 ```

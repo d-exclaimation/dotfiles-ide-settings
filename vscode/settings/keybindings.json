@@ -1,0 +1,18 @@
+[
+    {
+        "key": "shift+cmd+o left",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "terminal.open"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "-terminal.open"
+    }
+]

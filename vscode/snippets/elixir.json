@@ -1,0 +1,106 @@
+{
+    "Function skeleton type 1": {
+		"prefix": "df",
+		"body": [
+			"@doc \"\"\"",
+			"\"\"\"",
+			"@spec $1() :: nil",
+			"def $1() do",
+			"  $2",
+			"end"
+		],
+		"description": "Function with docs and typespec"
+	},
+	"Function skeleton type 2": {
+		"prefix": "rf",
+		"body": [
+			"@doc \"\"\"",
+			"\"\"\"",
+			"@spec $1() :: nil",
+			"def $1() when ${2:false}, do: ${3:guard}",
+			"def $1() do",
+			"  $4",
+			"end"
+		],
+		"description": "Function with docs, typespec, and guard"
+	},	
+	"Function skeleton type 3": {
+		"prefix": "pf",
+		"body": [
+			"@doc \"\"\"",
+			"\"\"\"",
+			"@spec $1() :: nil",
+			"def $1() do",
+			"  $2",
+			"end",
+			"",
+			"@spec do_$1() :: nil",
+			"defp do_$1() do",
+			"  $3",
+			"end"
+		],
+		"description": "Function with docs, typespec, and private helper function"
+	},	
+	"Function skeleton type 4": {
+		"prefix": "prf",
+		"body": [
+			"@doc \"\"\"",
+			"\"\"\"",
+			"@spec $1() :: nil",
+			"def $1() do",
+			"  $2",
+			"end",
+			"",
+			"@spec do_$1() :: nil",
+			"defp do_$1() when ${3:false}, do: $4",
+			"defp do_$1() do",
+			"  $5",
+			"end"
+		],
+		"description": "Function with docs, typespec, and private helper function with guard"
+	},	
+	"Function skeletion type 5": {
+		"prefix": "mf",
+		"body": [
+			"@doc \"\"\"",
+			"\"\"\"",
+			"@spec $1(%${TM_FILENAME_BASE/((^[a-z])|_([a-z]))/${2:/upcase}${3:/upcase}/g}{}) :: nil",
+			"def $1(root) do",
+			"  $2",
+			"end"
+		],
+		"description": "Function as methods to structs from the same module"
+	},
+	"Anonymous function":{
+		"prefix": "fn",
+		"body": "fn $0 -> $1 end",
+		"description": "Anonymous function snippets"
+	},
+	"module": {
+		"prefix": "mod",
+		"body": [
+			"#",
+			"#  $TM_FILENAME",
+			"#  $WORKSPACE_NAME",
+			"#",
+			"#  Created by d-exclaimation on ${CURRENT_HOUR}:${CURRENT_MINUTE}.",
+			"#  Copyright © $CURRENT_YEAR d-exclaimation. All rights reserved.",
+			"#",
+			"",
+			"defmodule ${TM_FILENAME_BASE/((^[a-z])|_([a-z]))/${2:/upcase}${3:/upcase}/g} do",
+			"  @moduledoc \"\"\"",
+			"    $2",
+			"  \"\"\"",
+			"end"
+		],
+		"description": "Elixir Module"
+	},
+	"Structs": {
+		"prefix": "defs",
+		"body": [
+			"@enforce_keys [$2]",
+			"defstruct [$1]"
+		],
+		"description": "Elixir Structs"
+	}
+}
