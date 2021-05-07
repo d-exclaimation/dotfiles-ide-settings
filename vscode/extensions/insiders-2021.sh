@@ -1,4 +1,4 @@
-code --install extension github.github-vscode-theme
+code --install extension d-exclaimation.liveride-color-theme
 code --install extension golang.go
 code --install extension kumar-harsh.graphql-for-vscode
 code --install extension saratravi.elixir-formatter
